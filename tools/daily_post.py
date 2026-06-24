@@ -112,6 +112,21 @@ def sans(sz, bold=False):
         except: pass
     return ImageFont.load_default()
 
+def sans_cjk(sz, bold=False):
+    for p, i in [
+        ("/Library/Fonts/Arial Unicode.ttf", 0),
+        ("/System/Library/Fonts/Hiragino Sans GB.ttc", 0),
+        ("/System/Library/Fonts/STHeiti Light.ttc", 0),
+        ("/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc", 0),
+        ("/usr/share/fonts/truetype/noto/NotoSansCJK-Regular.ttc", 0),
+    ]:
+        try: return ImageFont.truetype(p, sz, index=i)
+        except: pass
+    return ImageFont.load_default()
+
+def has_cjk(text):
+    return any('一' <= c <= '鿿' for c in text)
+
 # ── Icons ─────────────────────────────────────────────────────────────
 def icon_bed(d, x, y, s, c):
     d.rectangle([x, y+s//2, x+s, y+s], outline=(*c,210), width=2)
@@ -213,7 +228,8 @@ def draw_panel(d, title_lines, section_label=None, specs=None, body_lines=None):
         d.line([(M,cy),(LW-M,cy)],fill=(*SAND,100),width=1); cy+=RULE2_H+gap
     if body_lines:
         for line in body_lines:
-            d.text((M,cy),line,font=sans(22),fill=INK); cy+=46
+            f=sans_cjk(22) if has_cjk(line) else sans(22)
+            d.text((M,cy),line,font=f,fill=INK); cy+=46
     d.text((M,SZ-FOOT_H+10),"VillaGO.net",font=sans(20,bold=True),fill=(*STONE,170))
 
 # ── Generate cards ────────────────────────────────────────────────────
