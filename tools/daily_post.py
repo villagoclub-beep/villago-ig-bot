@@ -133,9 +133,59 @@ Enquire via DM or villago.net
 #FloatingBreakfast #PhuketLuxury #Naithon
 #ThailandTravel #TropicalEscape #VillaRental"""
     },
+    "sea 6": {
+        "name": "Veyla Natai",
+        "specs": [
+            ("bed",    "3",        "Bedrooms"),
+            ("area",   "585 m²",   "Villa Area"),
+            ("person", "6",        "Guests"),
+            ("pool",   "Private",  "Pool"),
+        ],
+        "cards": [
+            (["Veyla","Natai"], None,
+             ["Natai Beach · Phang Nga"],
+             3, 7, "Aerial · Beach · Ocean", "Pool · Oceanfront"),
+            (["Beach","Pool"], "Pool & Garden",
+             ["Natai beachfront","Tropical garden","Sun loungers"],
+             5, 49, "Natai Beach Panorama", "Garden · Pool"),
+            (["Open","Living"], "Living & Dining",
+             ["Open-plan living","Hanging swing chair","Floor-to-ceiling glass","Kitchen island bar","Indoor-outdoor flow"],
+             34, 30, "Living Room · Swing Chair", "Living · Kitchen · Stairs"),
+            (["The","Suites"], "Bedrooms",
+             ["Wake up to the ocean"],
+             20, 24, "Master Suite · Wood Floor", "Bedroom · Garden View"),
+            (["Looked","After"], "Signature Experiences",
+             ["Natai Beach steps away","Private beachfront pool","Full-time housekeeper","Concierge service","Airport transfer incl.","EN · 中文 · RU"],
+             0, 48, "Night · Pool · Villa", "Beachfront · Ocean View"),
+        ],
+        "caption": """\
+Veyla Natai — Natai Beach, Phang Nga 🌊
+
+A private 585 m² beachfront villa steps from Natai Beach.
+
+✦  3 en-suite bedrooms · up to 6 guests
+✦  Private beachfront pool
+✦  Open-plan living with hanging swing chair
+✦  Floor-to-ceiling glass · ocean views
+✦  Kitchen island bar
+✦  Full-time housekeeper
+✦  Concierge service
+✦  Airport transfer included
+✦  Trilingual concierge EN · 中文 · RU
+
+Natai Beach — just steps away.
+Enquire via DM or villago.net
+
+—
+
+#VeylaNatai #VillaGO #NataiBreach #PhangNga
+#LuxuryVilla #PrivateVilla #BeachfrontPool
+#PhuketLuxury #ThailandTravel #TropicalEscape
+#VillaRental #BeachVilla #ModernVilla"""
+    },
 }
 
-VILLA_ROTATION = ["V4", "V5"]
+VILLA_ROTATION = ["V4", "V5", "sea 6"]
 
 # ── Fonts (macOS + Linux fallbacks) ───────────────────────────────────
 def serif(sz):
