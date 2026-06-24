@@ -263,7 +263,7 @@ def upload(path):
     import datetime, mimetypes
     release_id = get_or_create_release()
     # Unique filename to avoid collisions across days
-    stamp = datetime.datetime.utcnow().strftime("%Y%m%d")
+    stamp = datetime.datetime.utcnow().strftime("%Y%m%d_%H%M%S")
     fname = f"{stamp}_{path.name}"
     data  = path.read_bytes()
     req = urllib.request.Request(
