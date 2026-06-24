@@ -30,8 +30,21 @@ jobs:
         run: pip install Pillow
 
       - name: Run daily post
+        id: post
         env:
           BUFFER_TOKEN: ${{ secrets.BUFFER_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VILLA_ID: V4
         run: python tools/daily_post.py
+
+      # 失败自动重试一次（等30秒再跑）
+      - name: Retry on failure
+        if: failure() && steps.post.outcome == 'failure'
+        env:
+          BUFFER_TOKEN: ${{ secrets.BUFFER_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VILLA_ID: V4
+        run: |
+          echo "⚠️ First attempt failed, retrying in 30s..."
+          sleep 30
+          python tools/daily_post.py
