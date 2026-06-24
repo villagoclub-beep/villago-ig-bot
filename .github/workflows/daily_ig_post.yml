@@ -30,5 +30,6 @@ jobs:
       - name: Run daily post
         env:
           BUFFER_TOKEN: ${{ secrets.BUFFER_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VILLA_ID: V4
         run: python tools/daily_post.py

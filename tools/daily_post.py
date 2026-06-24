@@ -5,7 +5,7 @@ Runs on GitHub Actions (Ubuntu) — no local dependencies needed.
 Env vars required: BUFFER_TOKEN
 """
 
-import json, math, os, subprocess, sys, tempfile, urllib.request
+import json, math, os, sys, tempfile, urllib.request
 from io import BytesIO
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
@@ -233,16 +233,51 @@ def generate_cards(villa_id, photos, outdir):
         paths.append(p)
     return paths
 
-# ── Upload image ──────────────────────────────────────────────────────
+# ── Upload image to GitHub Release ───────────────────────────────────
+GH_REPO  = os.environ.get("GITHUB_REPOSITORY", "villagoclub-beep/villago-ig-bot")
+GH_TOKEN = os.environ.get("GITHUB_TOKEN", "")
+
+def get_or_create_release(tag="media"):
+    """Get existing media release or create one."""
+    headers = {"Authorization": f"token {GH_TOKEN}",
+               "Content-Type": "application/json"}
+    # Try get
+    req = urllib.request.Request(
+        f"https://api.github.com/repos/{GH_REPO}/releases/tags/{tag}",
+        headers=headers)
+    try:
+        with urllib.request.urlopen(req, timeout=10) as r:
+            return json.loads(r.read())["id"]
+    except urllib.error.HTTPError:
+        pass
+    # Create
+    body = json.dumps({"tag_name": tag, "name": "Media storage",
+                       "body": "Auto-generated image storage.", "prerelease": True}).encode()
+    req = urllib.request.Request(
+        f"https://api.github.com/repos/{GH_REPO}/releases",
+        data=body, headers=headers)
+    with urllib.request.urlopen(req, timeout=10) as r:
+        return json.loads(r.read())["id"]
+
 def upload(path):
-    r = subprocess.run([
-        "curl","-s","-F","reqtype=fileupload","-F","time=72h",
-        "-F",f"fileToUpload=@{path}",
-        "https://litterbox.catbox.moe/resources/internals/api.php"
-    ], capture_output=True, text=True, timeout=30)
-    url = r.stdout.strip()
-    if not url.startswith("http"):
-        raise RuntimeError(f"Upload failed: {r.stdout} {r.stderr}")
+    import datetime, mimetypes
+    release_id = get_or_create_release()
+    # Unique filename to avoid collisions across days
+    stamp = datetime.datetime.utcnow().strftime("%Y%m%d")
+    fname = f"{stamp}_{path.name}"
+    data  = path.read_bytes()
+    req = urllib.request.Request(
+        f"https://uploads.github.com/repos/{GH_REPO}/releases/{release_id}/assets?name={fname}",
+        data=data,
+        headers={
+            "Authorization": f"token {GH_TOKEN}",
+            "Content-Type": "image/jpeg",
+        },
+        method="POST"
+    )
+    with urllib.request.urlopen(req, timeout=60) as r:
+        asset = json.loads(r.read())
+    url = asset["browser_download_url"]
     print(f"  📤  {path.name} → {url}")
     return url
 
