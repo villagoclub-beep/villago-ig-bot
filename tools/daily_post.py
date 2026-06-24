@@ -83,8 +83,59 @@ Enquire via DM or villago.net
 #LuxuryVilla #PrivateVilla #InfinityPool
 #FloatingBreakfast #PhuketLuxury #Naithon
 #ThailandTravel #TropicalEscape #VillaRental"""
-    }
+    },
+    "V5": {
+        "name": "Villa Elegance",
+        "specs": [
+            ("bed",    "5",        "Bedrooms"),
+            ("area",   "1,500 m²", "Villa Area"),
+            ("person", "10",       "Guests"),
+            ("pool",   "Private",  "Pool"),
+        ],
+        "cards": [
+            (["Villa","Eleg-","ance"], None,
+             ["Naithon · Phuket"],
+             20, 23, "Villa Exterior · Pool", "Pool Side · Ocean"),
+            (["Private","Pool"], "Pool & Garden",
+             ["Ocean-front terrace","Tropical garden","Sun loungers"],
+             4, 27, "Infinity Pool · Open Ocean", "Garden · Sea View"),
+            (["Open","Living"], "Living & Dining",
+             ["Grand double-height hall","Floor-to-ceiling glass","Poolside terrace dining","Indoor-outdoor flow","Panoramic ocean view"],
+             13, 14, "Grand Living Hall", "Terrace Dining · Pool · Ocean"),
+            (["The","Suites"], "Bedrooms",
+             ["Every suite faces sea or pool"],
+             6, 15, "Master Suite · Sea View", "Bedroom · Pool · Ocean"),
+            (["Looked","After"], "Signature Experiences",
+             ["Private chef · daily menu","Floating pool breakfast","Dedicated full-time maid","Pool activities","Airport transfer incl.","EN · 中文 · RU"],
+             1, 3, "Floating Breakfast", "Service Team"),
+        ],
+        "caption": """\
+Villa Elegance — Naithon, Phuket 🌊
+
+A private 1,500 m² oceanfront estate for up to 10 guests.
+
+✦  Private infinity pool · open ocean panorama
+✦  5 en-suite bedrooms · sea & pool views
+✦  Grand double-height living hall
+✦  Floating breakfast served in-pool daily
+✦  Private on-site chef · custom menus
+✦  Dedicated full-time maid
+✦  Poolside terrace dining · ocean breeze
+✦  Airport transfer included
+✦  Trilingual concierge EN · 中文 · RU
+
+Enquire via DM or villago.net
+
+—
+
+#VillaElegance #VillaGO #PhuketVilla
+#LuxuryVilla #PrivateVilla #InfinityPool
+#FloatingBreakfast #PhuketLuxury #Naithon
+#ThailandTravel #TropicalEscape #VillaRental"""
+    },
 }
+
+VILLA_ROTATION = ["V4", "V5"]
 
 # ── Fonts (macOS + Linux fallbacks) ───────────────────────────────────
 def serif(sz):
@@ -335,8 +386,12 @@ def post_to_buffer(caption, img_urls):
 
 # ── Main ──────────────────────────────────────────────────────────────
 def main():
-    villa_id = os.environ.get("VILLA_ID", "V4")
-    print(f"\n🏡  Generating {VILLAS[villa_id]['name']}...")
+    import datetime
+    villa_id = os.environ.get("VILLA_ID", "")
+    if not villa_id:
+        day = datetime.datetime.utcnow().timetuple().tm_yday
+        villa_id = VILLA_ROTATION[day % len(VILLA_ROTATION)]
+    print(f"\n🏡  Generating {VILLAS[villa_id]['name']} ({villa_id})...")
 
     # Fetch photos
     print("📡  Fetching photo list...")

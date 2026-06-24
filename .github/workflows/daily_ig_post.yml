@@ -34,7 +34,7 @@ jobs:
         env:
           BUFFER_TOKEN: ${{ secrets.BUFFER_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          VILLA_ID: V4
+          # VILLA_ID auto-rotates if not set
         run: python tools/daily_post.py
 
       # 失败自动重试一次（等30秒再跑）
@@ -43,7 +43,7 @@ jobs:
         env:
           BUFFER_TOKEN: ${{ secrets.BUFFER_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          VILLA_ID: V4
+          # VILLA_ID auto-rotates if not set
         run: |
           echo "⚠️ First attempt failed, retrying in 30s..."
           sleep 30
