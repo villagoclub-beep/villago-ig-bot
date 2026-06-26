@@ -488,9 +488,13 @@ def main():
     villa_id = os.environ.get("VILLA_ID", "")
     if not villa_id:
         run_num = int(os.environ.get("GITHUB_RUN_NUMBER", "1"))
-        idx = (run_num - 1) % len(VILLA_ROTATION)
+        idx = run_num - 1
+        if idx >= len(VILLA_ROTATION):
+            print(f"✅  All {len(VILLA_ROTATION)} villas posted. Add more to VILLA_ROTATION to continue.")
+            print(f"   (Run #{run_num}, {len(VILLA_ROTATION)} villas available)")
+            sys.exit(0)
         villa_id = VILLA_ROTATION[idx]
-        print(f"   Run #{run_num} → rotation index {idx}")
+        print(f"   Run #{run_num} → {villa_id} ({idx+1}/{len(VILLA_ROTATION)})")
     print(f"\n🏡  Generating {VILLAS[villa_id]['name']} ({villa_id})...")
 
     # Fetch photos
