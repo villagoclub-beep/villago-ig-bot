@@ -232,9 +232,837 @@ Enquire via DM or villago.net
 #TropicalEscape #PhuketLuxury #InfinityPool
 #ThailandTravel #VillaRental #PrivateCinema"""
     },
+    "A2": {
+        "name": "Zenithy Lux",
+        "specs": [
+            ("bed",    "4",        "Bedrooms"),
+            ("area",   "400 m²", "Villa Area"),
+            ("person", "8",       "Guests"),
+            ("pool",   "Private",  "Pool"),
+        ],
+        "cards": [
+            (["Zenithy","Lux"], None,
+             ["Phuket"],
+             46, 2, "Villa Exterior", "Pool View"),
+            (["Private","Pool"], "Pool & Garden",
+             ["Private pool","Tropical garden","Sun loungers"],
+             13, 4, "Pool", "Garden"),
+            (["Open","Living"], "Living & Dining",
+             ["Open-plan living","Indoor-outdoor flow","Private dining","Natural light","Tropical views"],
+             40, 7, "Living Area", "Dining"),
+            (["The","Suites"], "Bedrooms",
+             ["En-suite bedrooms"],
+             35, 5, "Master Suite", "Bedroom"),
+            (["Looked","After"], "Signature Experiences",
+             ["Full-time housekeeper","Concierge service","Airport transfer incl.","EN · 中文 · RU"],
+             41, 14, "Experience", "Service"),
+        ],
+        "caption": """\
+Zenithy Lux — Phuket 🌴
+
+A private 400 m² villa for up to 8 guests.
+
+✦  4 en-suite bedrooms
+✦  Private pool
+✦  Full-time housekeeper
+✦  Concierge service
+✦  Airport transfer included
+✦  Trilingual concierge EN · 中文 · RU
+
+Enquire via DM or villago.net
+
+—
+
+#ZenithyLux #VillaGO #PhuketVilla
+#LuxuryVilla #PrivateVilla #InfinityPool
+#PhuketLuxury #ThailandTravel #TropicalEscape
+#VillaRental"""
+    },
+    "B6": {
+        "name": "Botanica The Nature",
+        "specs": [
+            ("bed",    "4",        "Bedrooms"),
+            ("area",   "400 m²", "Villa Area"),
+            ("person", "8",       "Guests"),
+            ("pool",   "Private",  "Pool"),
+        ],
+        "cards": [
+            (["Botanica","The Nature"], None,
+             ["Phuket"],
+             24, 0, "Villa Exterior", "Pool View"),
+            (["Private","Pool"], "Pool & Garden",
+             ["Private pool","Tropical garden","Sun loungers"],
+             1, 22, "Pool", "Garden"),
+            (["Open","Living"], "Living & Dining",
+             ["Open-plan living","Indoor-outdoor flow","Private dining","Natural light","Tropical views"],
+             25, 26, "Living Area", "Dining"),
+            (["The","Suites"], "Bedrooms",
+             ["En-suite bedrooms"],
+             13, 11, "Master Suite", "Bedroom"),
+            (["Looked","After"], "Signature Experiences",
+             ["Full-time housekeeper","Concierge service","Airport transfer incl.","EN · 中文 · RU"],
+             6, 3, "Experience", "Service"),
+        ],
+        "caption": """\
+Botanica The Nature — Phuket 🌴
+
+A private 400 m² villa for up to 8 guests.
+
+✦  4 en-suite bedrooms
+✦  Private pool
+✦  Full-time housekeeper
+✦  Concierge service
+✦  Airport transfer included
+✦  Trilingual concierge EN · 中文 · RU
+
+Enquire via DM or villago.net
+
+—
+
+#BotanicaTheNature #VillaGO #PhuketVilla
+#LuxuryVilla #PrivateVilla #InfinityPool
+#PhuketLuxury #ThailandTravel #TropicalEscape
+#VillaRental"""
+    },
+    "9B": {
+        "name": "Pavara Khiri ",
+        "specs": [
+            ("bed",    "4",        "Bedrooms"),
+            ("area",   "450 m²", "Villa Area"),
+            ("person", "8",       "Guests"),
+            ("pool",   "Private",  "Pool"),
+        ],
+        "cards": [
+            (["Pavara","Khiri"], None,
+             ["Phuket"],
+             48, 1, "Villa Exterior", "Pool View"),
+            (["Private","Pool"], "Pool & Garden",
+             ["Private pool","Tropical garden","Sun loungers"],
+             2, 35, "Pool", "Garden"),
+            (["Open","Living"], "Living & Dining",
+             ["Open-plan living","Indoor-outdoor flow","Private dining","Natural light","Tropical views"],
+             49, 11, "Living Area", "Dining"),
+            (["The","Suites"], "Bedrooms",
+             ["En-suite bedrooms"],
+             42, 17, "Master Suite", "Bedroom"),
+            (["Looked","After"], "Signature Experiences",
+             ["Full-time housekeeper","Concierge service","Airport transfer incl.","EN · 中文 · RU"],
+             10, 53, "Experience", "Service"),
+        ],
+        "caption": """\
+Pavara Khiri  — Phuket 🌴
+
+A private 450 m² villa for up to 8 guests.
+
+✦  4 en-suite bedrooms
+✦  Private pool
+✦  Full-time housekeeper
+✦  Concierge service
+✦  Airport transfer included
+✦  Trilingual concierge EN · 中文 · RU
+
+Enquire via DM or villago.net
+
+—
+
+#PavaraKhiri #VillaGO #PhuketVilla
+#LuxuryVilla #PrivateVilla #InfinityPool
+#PhuketLuxury #ThailandTravel #TropicalEscape
+#VillaRental"""
+    },
+    "E6": {
+        "name": "Villa Sea Dream",
+        "specs": [
+            ("bed",    "5",        "Bedrooms"),
+            ("area",   "557 m²", "Villa Area"),
+            ("person", "10",       "Guests"),
+            ("pool",   "Private",  "Pool"),
+        ],
+        "cards": [
+            (["Villa","Sea Dream"], None,
+             ["Phuket"],
+             2, 14, "Villa Exterior", "Pool View"),
+            (["Private","Pool"], "Pool & Garden",
+             ["Private pool","Tropical garden","Sun loungers"],
+             1, 0, "Pool", "Garden"),
+            (["Open","Living"], "Living & Dining",
+             ["Open-plan living","Indoor-outdoor flow","Private dining","Natural light","Tropical views"],
+             48, 49, "Living Area", "Dining"),
+            (["The","Suites"], "Bedrooms",
+             ["En-suite bedrooms"],
+             43, 40, "Master Suite", "Bedroom"),
+            (["Looked","After"], "Signature Experiences",
+             ["Full-time housekeeper","Concierge service","Airport transfer incl.","EN · 中文 · RU"],
+             50, 33, "Experience", "Service"),
+        ],
+        "caption": """\
+Villa Sea Dream — Phuket 🌴
+
+A private 557 m² villa for up to 10 guests.
+
+✦  5 en-suite bedrooms
+✦  Private pool
+✦  Full-time housekeeper
+✦  Concierge service
+✦  Airport transfer included
+✦  Trilingual concierge EN · 中文 · RU
+
+Enquire via DM or villago.net
+
+—
+
+#VillaSeaDream #VillaGO #PhuketVilla
+#LuxuryVilla #PrivateVilla #InfinityPool
+#PhuketLuxury #ThailandTravel #TropicalEscape
+#VillaRental"""
+    },
+    "A4": {
+        "name": "Longone Pool Villa",
+        "specs": [
+            ("bed",    "3",        "Bedrooms"),
+            ("area",   "342 m²", "Villa Area"),
+            ("person", "6",       "Guests"),
+            ("pool",   "Private",  "Pool"),
+        ],
+        "cards": [
+            (["Longone","Pool Villa"], None,
+             ["Phuket"],
+             1, 12, "Villa Exterior", "Pool View"),
+            (["Private","Pool"], "Pool & Garden",
+             ["Private pool","Tropical garden","Sun loungers"],
+             7, 5, "Pool", "Garden"),
+            (["Open","Living"], "Living & Dining",
+             ["Open-plan living","Indoor-outdoor flow","Private dining","Natural light","Tropical views"],
+             36, 32, "Living Area", "Dining"),
+            (["The","Suites"], "Bedrooms",
+             ["En-suite bedrooms"],
+             44, 35, "Master Suite", "Bedroom"),
+            (["Looked","After"], "Signature Experiences",
+             ["Full-time housekeeper","Concierge service","Airport transfer incl.","EN · 中文 · RU"],
+             43, 18, "Experience", "Service"),
+        ],
+        "caption": """\
+Longone Pool Villa — Phuket 🌴
+
+A private 342 m² villa for up to 6 guests.
+
+✦  3 en-suite bedrooms
+✦  Private pool
+✦  Full-time housekeeper
+✦  Concierge service
+✦  Airport transfer included
+✦  Trilingual concierge EN · 中文 · RU
+
+Enquire via DM or villago.net
+
+—
+
+#LongonePoolVilla #VillaGO #PhuketVilla
+#LuxuryVilla #PrivateVilla #InfinityPool
+#PhuketLuxury #ThailandTravel #TropicalEscape
+#VillaRental"""
+    },
+    "D5": {
+        "name": "Longone Star Villa ",
+        "specs": [
+            ("bed",    "4",        "Bedrooms"),
+            ("area",   "200 m²", "Villa Area"),
+            ("person", "8",       "Guests"),
+            ("pool",   "Private",  "Pool"),
+        ],
+        "cards": [
+            (["Longone","Star Villa"], None,
+             ["Phuket"],
+             3, 1, "Villa Exterior", "Pool View"),
+            (["Private","Pool"], "Pool & Garden",
+             ["Private pool","Tropical garden","Sun loungers"],
+             24, 0, "Pool", "Garden"),
+            (["Open","Living"], "Living & Dining",
+             ["Open-plan living","Indoor-outdoor flow","Private dining","Natural light","Tropical views"],
+             22, 30, "Living Area", "Dining"),
+            (["The","Suites"], "Bedrooms",
+             ["En-suite bedrooms"],
+             56, 28, "Master Suite", "Bedroom"),
+            (["Looked","After"], "Signature Experiences",
+             ["Full-time housekeeper","Concierge service","Airport transfer incl.","EN · 中文 · RU"],
+             10, 18, "Experience", "Service"),
+        ],
+        "caption": """\
+Longone Star Villa  — Phuket 🌴
+
+A private 200 m² villa for up to 8 guests.
+
+✦  4 en-suite bedrooms
+✦  Private pool
+✦  Full-time housekeeper
+✦  Concierge service
+✦  Airport transfer included
+✦  Trilingual concierge EN · 中文 · RU
+
+Enquire via DM or villago.net
+
+—
+
+#LongoneStarVilla #VillaGO #PhuketVilla
+#LuxuryVilla #PrivateVilla #InfinityPool
+#PhuketLuxury #ThailandTravel #TropicalEscape
+#VillaRental"""
+    },
+    "S18": {
+        "name": "Manor Villa",
+        "specs": [
+            ("bed",    "4",        "Bedrooms"),
+            ("area",   "300 m²", "Villa Area"),
+            ("person", "8",       "Guests"),
+            ("pool",   "Private",  "Pool"),
+        ],
+        "cards": [
+            (["Manor","Villa"], None,
+             ["Phuket"],
+             4, 20, "Villa Exterior", "Pool View"),
+            (["Private","Pool"], "Pool & Garden",
+             ["Private pool","Tropical garden","Sun loungers"],
+             0, 16, "Pool", "Garden"),
+            (["Open","Living"], "Living & Dining",
+             ["Open-plan living","Indoor-outdoor flow","Private dining","Natural light","Tropical views"],
+             29, 13, "Living Area", "Dining"),
+            (["The","Suites"], "Bedrooms",
+             ["En-suite bedrooms"],
+             17, 5, "Master Suite", "Bedroom"),
+            (["Looked","After"], "Signature Experiences",
+             ["Full-time housekeeper","Concierge service","Airport transfer incl.","EN · 中文 · RU"],
+             10, 1, "Experience", "Service"),
+        ],
+        "caption": """\
+Manor Villa — Phuket 🌴
+
+A private 300 m² villa for up to 8 guests.
+
+✦  4 en-suite bedrooms
+✦  Private pool
+✦  Full-time housekeeper
+✦  Concierge service
+✦  Airport transfer included
+✦  Trilingual concierge EN · 中文 · RU
+
+Enquire via DM or villago.net
+
+—
+
+#ManorVilla #VillaGO #PhuketVilla
+#LuxuryVilla #PrivateVilla #InfinityPool
+#PhuketLuxury #ThailandTravel #TropicalEscape
+#VillaRental"""
+    },
+    "V1": {
+        "name": "Anchan Tropicana",
+        "specs": [
+            ("bed",    "3",        "Bedrooms"),
+            ("area",   "308 m²", "Villa Area"),
+            ("person", "6",       "Guests"),
+            ("pool",   "Private",  "Pool"),
+        ],
+        "cards": [
+            (["Anchan","Tropicana"], None,
+             ["Phuket"],
+             17, 44, "Villa Exterior", "Pool View"),
+            (["Private","Pool"], "Pool & Garden",
+             ["Private pool","Tropical garden","Sun loungers"],
+             27, 11, "Pool", "Garden"),
+            (["Open","Living"], "Living & Dining",
+             ["Open-plan living","Indoor-outdoor flow","Private dining","Natural light","Tropical views"],
+             5, 1, "Living Area", "Dining"),
+            (["The","Suites"], "Bedrooms",
+             ["En-suite bedrooms"],
+             26, 43, "Master Suite", "Bedroom"),
+            (["Looked","After"], "Signature Experiences",
+             ["Full-time housekeeper","Concierge service","Airport transfer incl.","EN · 中文 · RU"],
+             2, 31, "Experience", "Service"),
+        ],
+        "caption": """\
+Anchan Tropicana — Phuket 🌴
+
+A private 308 m² villa for up to 6 guests.
+
+✦  3 en-suite bedrooms
+✦  Private pool
+✦  Full-time housekeeper
+✦  Concierge service
+✦  Airport transfer included
+✦  Trilingual concierge EN · 中文 · RU
+
+Enquire via DM or villago.net
+
+—
+
+#AnchanTropicana #VillaGO #PhuketVilla
+#LuxuryVilla #PrivateVilla #InfinityPool
+#PhuketLuxury #ThailandTravel #TropicalEscape
+#VillaRental"""
+    },
+    "6B": {
+        "name": "Penthouse Skywind ",
+        "specs": [
+            ("bed",    "4",        "Bedrooms"),
+            ("area",   "200 m²", "Villa Area"),
+            ("person", "8",       "Guests"),
+            ("pool",   "Private",  "Pool"),
+        ],
+        "cards": [
+            (["Penthouse","Skywind"], None,
+             ["Phuket"],
+             2, 28, "Villa Exterior", "Pool View"),
+            (["Private","Pool"], "Pool & Garden",
+             ["Private pool","Tropical garden","Sun loungers"],
+             25, 10, "Pool", "Garden"),
+            (["Open","Living"], "Living & Dining",
+             ["Open-plan living","Indoor-outdoor flow","Private dining","Natural light","Tropical views"],
+             15, 43, "Living Area", "Dining"),
+            (["The","Suites"], "Bedrooms",
+             ["En-suite bedrooms"],
+             47, 32, "Master Suite", "Bedroom"),
+            (["Looked","After"], "Signature Experiences",
+             ["Full-time housekeeper","Concierge service","Airport transfer incl.","EN · 中文 · RU"],
+             39, 55, "Experience", "Service"),
+        ],
+        "caption": """\
+Penthouse Skywind  — Phuket 🌴
+
+A private 200 m² villa for up to 8 guests.
+
+✦  4 en-suite bedrooms
+✦  Private pool
+✦  Full-time housekeeper
+✦  Concierge service
+✦  Airport transfer included
+✦  Trilingual concierge EN · 中文 · RU
+
+Enquire via DM or villago.net
+
+—
+
+#PenthouseSkywind #VillaGO #PhuketVilla
+#LuxuryVilla #PrivateVilla #InfinityPool
+#PhuketLuxury #ThailandTravel #TropicalEscape
+#VillaRental"""
+    },
+    "Villa C": {
+        "name": "Layan Estate Villa",
+        "specs": [
+            ("bed",    "3",        "Bedrooms"),
+            ("area",   "800 m²", "Villa Area"),
+            ("person", "6",       "Guests"),
+            ("pool",   "Private",  "Pool"),
+        ],
+        "cards": [
+            (["Layan","Estate Villa"], None,
+             ["Phuket"],
+             3, 12, "Villa Exterior", "Pool View"),
+            (["Private","Pool"], "Pool & Garden",
+             ["Private pool","Tropical garden","Sun loungers"],
+             27, 4, "Pool", "Garden"),
+            (["Open","Living"], "Living & Dining",
+             ["Open-plan living","Indoor-outdoor flow","Private dining","Natural light","Tropical views"],
+             13, 28, "Living Area", "Dining"),
+            (["The","Suites"], "Bedrooms",
+             ["En-suite bedrooms"],
+             19, 2, "Master Suite", "Bedroom"),
+            (["Looked","After"], "Signature Experiences",
+             ["Full-time housekeeper","Concierge service","Airport transfer incl.","EN · 中文 · RU"],
+             18, 26, "Experience", "Service"),
+        ],
+        "caption": """\
+Layan Estate Villa — Phuket 🌴
+
+A private 800 m² villa for up to 6 guests.
+
+✦  3 en-suite bedrooms
+✦  Private pool
+✦  Full-time housekeeper
+✦  Concierge service
+✦  Airport transfer included
+✦  Trilingual concierge EN · 中文 · RU
+
+Enquire via DM or villago.net
+
+—
+
+#LayanEstateVilla #VillaGO #PhuketVilla
+#LuxuryVilla #PrivateVilla #InfinityPool
+#PhuketLuxury #ThailandTravel #TropicalEscape
+#VillaRental"""
+    },
+    "C1": {
+        "name": "Trinity Villa",
+        "specs": [
+            ("bed",    "5",        "Bedrooms"),
+            ("area",   "400 m²", "Villa Area"),
+            ("person", "10",       "Guests"),
+            ("pool",   "Private",  "Pool"),
+        ],
+        "cards": [
+            (["Trinity","Villa"], None,
+             ["Phuket"],
+             8, 0, "Villa Exterior", "Pool View"),
+            (["Private","Pool"], "Pool & Garden",
+             ["Private pool","Tropical garden","Sun loungers"],
+             30, 32, "Pool", "Garden"),
+            (["Open","Living"], "Living & Dining",
+             ["Open-plan living","Indoor-outdoor flow","Private dining","Natural light","Tropical views"],
+             50, 55, "Living Area", "Dining"),
+            (["The","Suites"], "Bedrooms",
+             ["En-suite bedrooms"],
+             42, 1, "Master Suite", "Bedroom"),
+            (["Looked","After"], "Signature Experiences",
+             ["Full-time housekeeper","Concierge service","Airport transfer incl.","EN · 中文 · RU"],
+             13, 62, "Experience", "Service"),
+        ],
+        "caption": """\
+Trinity Villa — Phuket 🌴
+
+A private 400 m² villa for up to 10 guests.
+
+✦  5 en-suite bedrooms
+✦  Private pool
+✦  Full-time housekeeper
+✦  Concierge service
+✦  Airport transfer included
+✦  Trilingual concierge EN · 中文 · RU
+
+Enquire via DM or villago.net
+
+—
+
+#TrinityVilla #VillaGO #PhuketVilla
+#LuxuryVilla #PrivateVilla #InfinityPool
+#PhuketLuxury #ThailandTravel #TropicalEscape
+#VillaRental"""
+    },
+    "A15": {
+        "name": "The Residence Villa",
+        "specs": [
+            ("bed",    "3",        "Bedrooms"),
+            ("area",   "352 m²", "Villa Area"),
+            ("person", "6",       "Guests"),
+            ("pool",   "Private",  "Pool"),
+        ],
+        "cards": [
+            (["The","Residence Villa"], None,
+             ["Phuket"],
+             59, 39, "Villa Exterior", "Pool View"),
+            (["Private","Pool"], "Pool & Garden",
+             ["Private pool","Tropical garden","Sun loungers"],
+             6, 15, "Pool", "Garden"),
+            (["Open","Living"], "Living & Dining",
+             ["Open-plan living","Indoor-outdoor flow","Private dining","Natural light","Tropical views"],
+             56, 54, "Living Area", "Dining"),
+            (["The","Suites"], "Bedrooms",
+             ["En-suite bedrooms"],
+             57, 52, "Master Suite", "Bedroom"),
+            (["Looked","After"], "Signature Experiences",
+             ["Full-time housekeeper","Concierge service","Airport transfer incl.","EN · 中文 · RU"],
+             9, 28, "Experience", "Service"),
+        ],
+        "caption": """\
+The Residence Villa — Phuket 🌴
+
+A private 352 m² villa for up to 6 guests.
+
+✦  3 en-suite bedrooms
+✦  Private pool
+✦  Full-time housekeeper
+✦  Concierge service
+✦  Airport transfer included
+✦  Trilingual concierge EN · 中文 · RU
+
+Enquire via DM or villago.net
+
+—
+
+#TheResidenceVilla #VillaGO #PhuketVilla
+#LuxuryVilla #PrivateVilla #InfinityPool
+#PhuketLuxury #ThailandTravel #TropicalEscape
+#VillaRental"""
+    },
+    "L6": {
+        "name": "Lux Pride Phase IV",
+        "specs": [
+            ("bed",    "3",        "Bedrooms"),
+            ("area",   "426 m²", "Villa Area"),
+            ("person", "6",       "Guests"),
+            ("pool",   "Private",  "Pool"),
+        ],
+        "cards": [
+            (["Lux","Pride Phase IV"], None,
+             ["Phuket"],
+             11, 7, "Villa Exterior", "Pool View"),
+            (["Private","Pool"], "Pool & Garden",
+             ["Private pool","Tropical garden","Sun loungers"],
+             0, 12, "Pool", "Garden"),
+            (["Open","Living"], "Living & Dining",
+             ["Open-plan living","Indoor-outdoor flow","Private dining","Natural light","Tropical views"],
+             35, 27, "Living Area", "Dining"),
+            (["The","Suites"], "Bedrooms",
+             ["En-suite bedrooms"],
+             3, 23, "Master Suite", "Bedroom"),
+            (["Looked","After"], "Signature Experiences",
+             ["Full-time housekeeper","Concierge service","Airport transfer incl.","EN · 中文 · RU"],
+             17, 1, "Experience", "Service"),
+        ],
+        "caption": """\
+Lux Pride Phase IV — Phuket 🌴
+
+A private 426 m² villa for up to 6 guests.
+
+✦  3 en-suite bedrooms
+✦  Private pool
+✦  Full-time housekeeper
+✦  Concierge service
+✦  Airport transfer included
+✦  Trilingual concierge EN · 中文 · RU
+
+Enquire via DM or villago.net
+
+—
+
+#LuxPridePhaseIV #VillaGO #PhuketVilla
+#LuxuryVilla #PrivateVilla #InfinityPool
+#PhuketLuxury #ThailandTravel #TropicalEscape
+#VillaRental"""
+    },
+    "V6": {
+        "name": "Lux Pride Phase II",
+        "specs": [
+            ("bed",    "4",        "Bedrooms"),
+            ("area",   "420 m²", "Villa Area"),
+            ("person", "8",       "Guests"),
+            ("pool",   "Private",  "Pool"),
+        ],
+        "cards": [
+            (["Lux","Pride Phase II"], None,
+             ["Phuket"],
+             2, 5, "Villa Exterior", "Pool View"),
+            (["Private","Pool"], "Pool & Garden",
+             ["Private pool","Tropical garden","Sun loungers"],
+             18, 0, "Pool", "Garden"),
+            (["Open","Living"], "Living & Dining",
+             ["Open-plan living","Indoor-outdoor flow","Private dining","Natural light","Tropical views"],
+             35, 21, "Living Area", "Dining"),
+            (["The","Suites"], "Bedrooms",
+             ["En-suite bedrooms"],
+             39, 43, "Master Suite", "Bedroom"),
+            (["Looked","After"], "Signature Experiences",
+             ["Full-time housekeeper","Concierge service","Airport transfer incl.","EN · 中文 · RU"],
+             10, 1, "Experience", "Service"),
+        ],
+        "caption": """\
+Lux Pride Phase II — Phuket 🌴
+
+A private 420 m² villa for up to 8 guests.
+
+✦  4 en-suite bedrooms
+✦  Private pool
+✦  Full-time housekeeper
+✦  Concierge service
+✦  Airport transfer included
+✦  Trilingual concierge EN · 中文 · RU
+
+Enquire via DM or villago.net
+
+—
+
+#LuxPridePhaseII #VillaGO #PhuketVilla
+#LuxuryVilla #PrivateVilla #InfinityPool
+#PhuketLuxury #ThailandTravel #TropicalEscape
+#VillaRental"""
+    },
+    "7C": {
+        "name": "Botanica Bangtao Beach",
+        "specs": [
+            ("bed",    "5",        "Bedrooms"),
+            ("area",   "800 m²", "Villa Area"),
+            ("person", "10",       "Guests"),
+            ("pool",   "Private",  "Pool"),
+        ],
+        "cards": [
+            (["Botanica","Bangtao Beach"], None,
+             ["Phuket"],
+             31, 1, "Villa Exterior", "Pool View"),
+            (["Private","Pool"], "Pool & Garden",
+             ["Private pool","Tropical garden","Sun loungers"],
+             2, 30, "Pool", "Garden"),
+            (["Open","Living"], "Living & Dining",
+             ["Open-plan living","Indoor-outdoor flow","Private dining","Natural light","Tropical views"],
+             40, 32, "Living Area", "Dining"),
+            (["The","Suites"], "Bedrooms",
+             ["En-suite bedrooms"],
+             43, 26, "Master Suite", "Bedroom"),
+            (["Looked","After"], "Signature Experiences",
+             ["Full-time housekeeper","Concierge service","Airport transfer incl.","EN · 中文 · RU"],
+             4, 0, "Experience", "Service"),
+        ],
+        "caption": """\
+Botanica Bangtao Beach — Phuket 🌴
+
+A private 800 m² villa for up to 10 guests.
+
+✦  5 en-suite bedrooms
+✦  Private pool
+✦  Full-time housekeeper
+✦  Concierge service
+✦  Airport transfer included
+✦  Trilingual concierge EN · 中文 · RU
+
+Enquire via DM or villago.net
+
+—
+
+#BotanicaBangtaoBeach #VillaGO #PhuketVilla
+#LuxuryVilla #PrivateVilla #InfinityPool
+#PhuketLuxury #ThailandTravel #TropicalEscape
+#VillaRental"""
+    },
+    "71/10": {
+        "name": "Mono Villa",
+        "specs": [
+            ("bed",    "3",        "Bedrooms"),
+            ("area",   "150 m²", "Villa Area"),
+            ("person", "6",       "Guests"),
+            ("pool",   "Private",  "Pool"),
+        ],
+        "cards": [
+            (["Mono","Villa"], None,
+             ["Phuket"],
+             20, 8, "Villa Exterior", "Pool View"),
+            (["Private","Pool"], "Pool & Garden",
+             ["Private pool","Tropical garden","Sun loungers"],
+             25, 12, "Pool", "Garden"),
+            (["Open","Living"], "Living & Dining",
+             ["Open-plan living","Indoor-outdoor flow","Private dining","Natural light","Tropical views"],
+             5, 1, "Living Area", "Dining"),
+            (["The","Suites"], "Bedrooms",
+             ["En-suite bedrooms"],
+             4, 22, "Master Suite", "Bedroom"),
+            (["Looked","After"], "Signature Experiences",
+             ["Full-time housekeeper","Concierge service","Airport transfer incl.","EN · 中文 · RU"],
+             0, 15, "Experience", "Service"),
+        ],
+        "caption": """\
+Mono Villa — Phuket 🌴
+
+A private 150 m² villa for up to 6 guests.
+
+✦  3 en-suite bedrooms
+✦  Private pool
+✦  Full-time housekeeper
+✦  Concierge service
+✦  Airport transfer included
+✦  Trilingual concierge EN · 中文 · RU
+
+Enquire via DM or villago.net
+
+—
+
+#MonoVilla #VillaGO #PhuketVilla
+#LuxuryVilla #PrivateVilla #InfinityPool
+#PhuketLuxury #ThailandTravel #TropicalEscape
+#VillaRental"""
+    },
+    "5": {
+        "name": "Kalim View",
+        "specs": [
+            ("bed",    "5",        "Bedrooms"),
+            ("area",   "1,000 m²", "Villa Area"),
+            ("person", "10",       "Guests"),
+            ("pool",   "Private",  "Pool"),
+        ],
+        "cards": [
+            (["Kalim","View"], None,
+             ["Phuket"],
+             2, 0, "Villa Exterior", "Pool View"),
+            (["Private","Pool"], "Pool & Garden",
+             ["Private pool","Tropical garden","Sun loungers"],
+             1, 3, "Pool", "Garden"),
+            (["Open","Living"], "Living & Dining",
+             ["Open-plan living","Indoor-outdoor flow","Private dining","Natural light","Tropical views"],
+             5, 9, "Living Area", "Dining"),
+            (["The","Suites"], "Bedrooms",
+             ["En-suite bedrooms"],
+             13, 12, "Master Suite", "Bedroom"),
+            (["Looked","After"], "Signature Experiences",
+             ["Full-time housekeeper","Concierge service","Airport transfer incl.","EN · 中文 · RU"],
+             4, 7, "Experience", "Service"),
+        ],
+        "caption": """\
+Kalim View — Phuket 🌴
+
+A private 1,000 m² villa for up to 10 guests.
+
+✦  5 en-suite bedrooms
+✦  Private pool
+✦  Full-time housekeeper
+✦  Concierge service
+✦  Airport transfer included
+✦  Trilingual concierge EN · 中文 · RU
+
+Enquire via DM or villago.net
+
+—
+
+#KalimView #VillaGO #PhuketVilla
+#LuxuryVilla #PrivateVilla #InfinityPool
+#PhuketLuxury #ThailandTravel #TropicalEscape
+#VillaRental"""
+    },
+    "5A": {
+        "name": "Penthouse Skyline",
+        "specs": [
+            ("bed",    "4",        "Bedrooms"),
+            ("area",   "256 m²", "Villa Area"),
+            ("person", "8",       "Guests"),
+            ("pool",   "Private",  "Pool"),
+        ],
+        "cards": [
+            (["Penthouse","Skyline"], None,
+             ["Phuket"],
+             1, 3, "Villa Exterior", "Pool View"),
+            (["Private","Pool"], "Pool & Garden",
+             ["Private pool","Tropical garden","Sun loungers"],
+             4, 6, "Pool", "Garden"),
+            (["Open","Living"], "Living & Dining",
+             ["Open-plan living","Indoor-outdoor flow","Private dining","Natural light","Tropical views"],
+             7, 5, "Living Area", "Dining"),
+            (["The","Suites"], "Bedrooms",
+             ["En-suite bedrooms"],
+             15, 28, "Master Suite", "Bedroom"),
+            (["Looked","After"], "Signature Experiences",
+             ["Full-time housekeeper","Concierge service","Airport transfer incl.","EN · 中文 · RU"],
+             2, 31, "Experience", "Service"),
+        ],
+        "caption": """\
+Penthouse Skyline — Phuket 🌴
+
+A private 256 m² villa for up to 8 guests.
+
+✦  4 en-suite bedrooms
+✦  Private pool
+✦  Full-time housekeeper
+✦  Concierge service
+✦  Airport transfer included
+✦  Trilingual concierge EN · 中文 · RU
+
+Enquire via DM or villago.net
+
+—
+
+#PenthouseSkyline #VillaGO #PhuketVilla
+#LuxuryVilla #PrivateVilla #InfinityPool
+#PhuketLuxury #ThailandTravel #TropicalEscape
+#VillaRental"""
+    },
 }
 
-VILLA_ROTATION = ["V4", "V5", "sea 6", "B5"]
+VILLA_ROTATION = ["V4", "V5", "sea 6", "B5", "A2", "B6", "9B", "E6", "A4", "D5", "S18", "V1", "6B", "Villa C", "C1", "A15", "L6", "V6", "7C", "71/10", "5", "5A"]
 
 # ── Fonts (macOS + Linux fallbacks) ───────────────────────────────────
 def serif(sz):
