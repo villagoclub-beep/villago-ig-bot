@@ -488,7 +488,12 @@ def main():
     villa_id = os.environ.get("VILLA_ID", "")
     if not villa_id:
         run_num = int(os.environ.get("GITHUB_RUN_NUMBER", "1"))
-        idx = run_num - 1
+        # Offset: Run #9 = first post of current rotation (B5)
+        # V4(done), V5(done), Veyla(done) already posted before Run #9
+        ROTATION_OFFSET = 6   # run_num - offset = rotation index
+        idx = run_num - ROTATION_OFFSET
+        if idx < 0:
+            idx = 0
         if idx >= len(VILLA_ROTATION):
             print(f"✅  All {len(VILLA_ROTATION)} villas posted. Add more to VILLA_ROTATION to continue.")
             print(f"   (Run #{run_num}, {len(VILLA_ROTATION)} villas available)")
