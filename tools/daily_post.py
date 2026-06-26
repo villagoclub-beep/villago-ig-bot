@@ -183,9 +183,58 @@ Enquire via DM or villago.net
 #PhuketLuxury #ThailandTravel #TropicalEscape
 #VillaRental #BeachVilla #ModernVilla"""
     },
+    "B5": {
+        "name": "Villa Apsara",
+        "specs": [
+            ("bed",    "5",        "Bedrooms"),
+            ("area",   "1,000 m²", "Villa Area"),
+            ("person", "10",       "Guests"),
+            ("pool",   "Private",  "Pool"),
+        ],
+        "cards": [
+            (["Villa","Apsara"], None,
+             ["Phuket"],
+             3, 7, "Aerial · Ocean Panorama", "Pool · Sunset"),
+            (["Tropical","Pool"], "Pool & Garden",
+             ["Tropical pool terrace","Lush garden setting","Sunset lounge"],
+             1, 14, "Pool Panorama", "Pool · Terrace · Lounge"),
+            (["Thai","Living"], "Living & Dining",
+             ["Ocean-view living room","Traditional teak interiors","Covered terrace dining","Warm wood throughout","Tropical garden views"],
+             35, 28, "Living Room · Ocean View", "Terrace Dining"),
+            (["The","Suites"], "Bedrooms",
+             ["Wake up to ocean or pool"],
+             9, 45, "Suite · Pool View", "Master · Ocean View"),
+            (["Looked","After"], "Signature Experiences",
+             ["Private cinema room","Ocean-view terrace","Full-time housekeeper","Concierge service","Airport transfer incl.","EN · 中文 · RU"],
+             30, 31, "Ocean Terrace", "Private Cinema"),
+        ],
+        "caption": """\
+Villa Apsara — Phuket 🌴
+
+A private 1,000 m² tropical estate for up to 10 guests.
+
+✦  5 en-suite bedrooms · ocean & pool views
+✦  Private infinity pool · tropical garden
+✦  Traditional teak interiors · warm wood throughout
+✦  Ocean-view living room & covered terrace dining
+✦  Private cinema room
+✦  Full-time housekeeper
+✦  Concierge service
+✦  Airport transfer included
+✦  Trilingual concierge EN · 中文 · RU
+
+Enquire via DM or villago.net
+
+—
+
+#VillaApsara #VillaGO #PhuketVilla
+#LuxuryVilla #PrivateVilla #ThaiVilla
+#TropicalEscape #PhuketLuxury #InfinityPool
+#ThailandTravel #VillaRental #PrivateCinema"""
+    },
 }
 
-VILLA_ROTATION = ["V4", "V5", "sea 6"]
+VILLA_ROTATION = ["V4", "V5", "sea 6", "B5"]
 
 # ── Fonts (macOS + Linux fallbacks) ───────────────────────────────────
 def serif(sz):
@@ -436,11 +485,12 @@ def post_to_buffer(caption, img_urls):
 
 # ── Main ──────────────────────────────────────────────────────────────
 def main():
-    import datetime
     villa_id = os.environ.get("VILLA_ID", "")
     if not villa_id:
-        day = datetime.datetime.utcnow().timetuple().tm_yday
-        villa_id = VILLA_ROTATION[day % len(VILLA_ROTATION)]
+        run_num = int(os.environ.get("GITHUB_RUN_NUMBER", "1"))
+        idx = (run_num - 1) % len(VILLA_ROTATION)
+        villa_id = VILLA_ROTATION[idx]
+        print(f"   Run #{run_num} → rotation index {idx}")
     print(f"\n🏡  Generating {VILLAS[villa_id]['name']} ({villa_id})...")
 
     # Fetch photos
