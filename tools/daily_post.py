@@ -82,7 +82,8 @@ Enquire via DM or villago.net
 #VillaSerenity #VillaGO #PhuketVilla
 #LuxuryVilla #PrivateVilla #InfinityPool
 #FloatingBreakfast #PhuketLuxury #Naithon
-#ThailandTravel #TropicalEscape #VillaRental"""
+#ThailandTravel #TropicalEscape #VillaRental
+#فيلا_بوكيت #فلل_فاخرة #بوكيت #عطلة_العائلة #فيلا_خاصة #سياحة_تايلاند #مسبح_خاص #شهر_عسل_بوكيت"""
     },
     "V5": {
         "name": "Villa Elegance",
@@ -131,7 +132,8 @@ Enquire via DM or villago.net
 #VillaElegance #VillaGO #PhuketVilla
 #LuxuryVilla #PrivateVilla #InfinityPool
 #FloatingBreakfast #PhuketLuxury #Naithon
-#ThailandTravel #TropicalEscape #VillaRental"""
+#ThailandTravel #TropicalEscape #VillaRental
+#فيلا_بوكيت #فلل_فاخرة #بوكيت #عطلة_العائلة #فيلا_خاصة #سياحة_تايلاند #مسبح_خاص #شهر_عسل_بوكيت"""
     },
     "sea 6": {
         "name": "Veyla Natai",
@@ -181,7 +183,8 @@ Enquire via DM or villago.net
 #VeylaNatai #VillaGO #NataiBreach #PhangNga
 #LuxuryVilla #PrivateVilla #BeachfrontPool
 #PhuketLuxury #ThailandTravel #TropicalEscape
-#VillaRental #BeachVilla #ModernVilla"""
+#VillaRental #BeachVilla #ModernVilla
+#فيلا_بوكيت #فلل_فاخرة #بوكيت #عطلة_العائلة #فيلا_خاصة #سياحة_تايلاند #مسبح_خاص #شهر_عسل_بوكيت"""
     },
     "B5": {
         "name": "Villa Apsara",
@@ -230,7 +233,8 @@ Enquire via DM or villago.net
 #VillaApsara #VillaGO #PhuketVilla
 #LuxuryVilla #PrivateVilla #ThaiVilla
 #TropicalEscape #PhuketLuxury #InfinityPool
-#ThailandTravel #VillaRental #PrivateCinema"""
+#ThailandTravel #VillaRental #PrivateCinema
+#فيلا_بوكيت #فلل_فاخرة #بوكيت #عطلة_العائلة #فيلا_خاصة #سياحة_تايلاند #مسبح_خاص #شهر_عسل_بوكيت"""
     },
     "A2": {
         "name": "Zenithy Lux",
@@ -276,7 +280,8 @@ Enquire via DM or villago.net
 #ZenithyLux #VillaGO #PhuketVilla
 #LuxuryVilla #PrivateVilla #InfinityPool
 #PhuketLuxury #ThailandTravel #TropicalEscape
-#VillaRental"""
+#VillaRental
+#فيلا_بوكيت #فلل_فاخرة #بوكيت #عطلة_العائلة #فيلا_خاصة #سياحة_تايلاند #مسبح_خاص #شهر_عسل_بوكيت"""
     },
     "B6": {
         "name": "Botanica The Nature",
@@ -322,7 +327,8 @@ Enquire via DM or villago.net
 #BotanicaTheNature #VillaGO #PhuketVilla
 #LuxuryVilla #PrivateVilla #InfinityPool
 #PhuketLuxury #ThailandTravel #TropicalEscape
-#VillaRental"""
+#VillaRental
+#فيلا_بوكيت #فلل_فاخرة #بوكيت #عطلة_العائلة #فيلا_خاصة #سياحة_تايلاند #مسبح_خاص #شهر_عسل_بوكيت"""
     },
     "9B": {
         "name": "Pavara Khiri ",
@@ -368,7 +374,8 @@ Enquire via DM or villago.net
 #PavaraKhiri #VillaGO #PhuketVilla
 #LuxuryVilla #PrivateVilla #InfinityPool
 #PhuketLuxury #ThailandTravel #TropicalEscape
-#VillaRental"""
+#VillaRental
+#فيلا_بوكيت #فلل_فاخرة #بوكيت #عطلة_العائلة #فيلا_خاصة #سياحة_تايلاند #مسبح_خاص #شهر_عسل_بوكيت"""
     },
     "E6": {
         "name": "Villa Sea Dream",
@@ -414,7 +421,8 @@ Enquire via DM or villago.net
 #VillaSeaDream #VillaGO #PhuketVilla
 #LuxuryVilla #PrivateVilla #InfinityPool
 #PhuketLuxury #ThailandTravel #TropicalEscape
-#VillaRental"""
+#VillaRental
+#فيلا_بوكيت #فلل_فاخرة #بوكيت #عطلة_العائلة #فيلا_خاصة #سياحة_تايلاند #مسبح_خاص #شهر_عسل_بوكيت"""
     },
     "A4": {
         "name": "Longone Pool Villa",
@@ -460,7 +468,8 @@ Enquire via DM or villago.net
 #LongonePoolVilla #VillaGO #PhuketVilla
 #LuxuryVilla #PrivateVilla #InfinityPool
 #PhuketLuxury #ThailandTravel #TropicalEscape
-#VillaRental"""
+#VillaRental
+#فيلا_بوكيت #فلل_فاخرة #بوكيت #عطلة_العائلة #فيلا_خاصة #سياحة_تايلاند #مسبح_خاص #شهر_عسل_بوكيت"""
     },
     "D5": {
         "name": "Longone Star Villa ",
@@ -506,7 +515,8 @@ Enquire via DM or villago.net
 #LongoneStarVilla #VillaGO #PhuketVilla
 #LuxuryVilla #PrivateVilla #InfinityPool
 #PhuketLuxury #ThailandTravel #TropicalEscape
-#VillaRental"""
+#VillaRental
+#فيلا_بوكيت #فلل_فاخرة #بوكيت #عطلة_العائلة #فيلا_خاصة #سياحة_تايلاند #مسبح_خاص #شهر_عسل_بوكيت"""
     },
     "S18": {
         "name": "Manor Villa",
@@ -552,7 +562,8 @@ Enquire via DM or villago.net
 #ManorVilla #VillaGO #PhuketVilla
 #LuxuryVilla #PrivateVilla #InfinityPool
 #PhuketLuxury #ThailandTravel #TropicalEscape
-#VillaRental"""
+#VillaRental
+#فيلا_بوكيت #فلل_فاخرة #بوكيت #عطلة_العائلة #فيلا_خاصة #سياحة_تايلاند #مسبح_خاص #شهر_عسل_بوكيت"""
     },
     "V1": {
         "name": "Anchan Tropicana",
@@ -598,7 +609,8 @@ Enquire via DM or villago.net
 #AnchanTropicana #VillaGO #PhuketVilla
 #LuxuryVilla #PrivateVilla #InfinityPool
 #PhuketLuxury #ThailandTravel #TropicalEscape
-#VillaRental"""
+#VillaRental
+#فيلا_بوكيت #فلل_فاخرة #بوكيت #عطلة_العائلة #فيلا_خاصة #سياحة_تايلاند #مسبح_خاص #شهر_عسل_بوكيت"""
     },
     "6B": {
         "name": "Penthouse Skywind ",
@@ -644,7 +656,8 @@ Enquire via DM or villago.net
 #PenthouseSkywind #VillaGO #PhuketVilla
 #LuxuryVilla #PrivateVilla #InfinityPool
 #PhuketLuxury #ThailandTravel #TropicalEscape
-#VillaRental"""
+#VillaRental
+#فيلا_بوكيت #فلل_فاخرة #بوكيت #عطلة_العائلة #فيلا_خاصة #سياحة_تايلاند #مسبح_خاص #شهر_عسل_بوكيت"""
     },
     "Villa C": {
         "name": "Layan Estate Villa",
@@ -690,7 +703,8 @@ Enquire via DM or villago.net
 #LayanEstateVilla #VillaGO #PhuketVilla
 #LuxuryVilla #PrivateVilla #InfinityPool
 #PhuketLuxury #ThailandTravel #TropicalEscape
-#VillaRental"""
+#VillaRental
+#فيلا_بوكيت #فلل_فاخرة #بوكيت #عطلة_العائلة #فيلا_خاصة #سياحة_تايلاند #مسبح_خاص #شهر_عسل_بوكيت"""
     },
     "C1": {
         "name": "Trinity Villa",
@@ -736,7 +750,8 @@ Enquire via DM or villago.net
 #TrinityVilla #VillaGO #PhuketVilla
 #LuxuryVilla #PrivateVilla #InfinityPool
 #PhuketLuxury #ThailandTravel #TropicalEscape
-#VillaRental"""
+#VillaRental
+#فيلا_بوكيت #فلل_فاخرة #بوكيت #عطلة_العائلة #فيلا_خاصة #سياحة_تايلاند #مسبح_خاص #شهر_عسل_بوكيت"""
     },
     "A15": {
         "name": "The Residence Villa",
@@ -782,7 +797,8 @@ Enquire via DM or villago.net
 #TheResidenceVilla #VillaGO #PhuketVilla
 #LuxuryVilla #PrivateVilla #InfinityPool
 #PhuketLuxury #ThailandTravel #TropicalEscape
-#VillaRental"""
+#VillaRental
+#فيلا_بوكيت #فلل_فاخرة #بوكيت #عطلة_العائلة #فيلا_خاصة #سياحة_تايلاند #مسبح_خاص #شهر_عسل_بوكيت"""
     },
     "L6": {
         "name": "Lux Pride Phase IV",
@@ -828,7 +844,8 @@ Enquire via DM or villago.net
 #LuxPridePhaseIV #VillaGO #PhuketVilla
 #LuxuryVilla #PrivateVilla #InfinityPool
 #PhuketLuxury #ThailandTravel #TropicalEscape
-#VillaRental"""
+#VillaRental
+#فيلا_بوكيت #فلل_فاخرة #بوكيت #عطلة_العائلة #فيلا_خاصة #سياحة_تايلاند #مسبح_خاص #شهر_عسل_بوكيت"""
     },
     "V6": {
         "name": "Lux Pride Phase II",
@@ -874,7 +891,8 @@ Enquire via DM or villago.net
 #LuxPridePhaseII #VillaGO #PhuketVilla
 #LuxuryVilla #PrivateVilla #InfinityPool
 #PhuketLuxury #ThailandTravel #TropicalEscape
-#VillaRental"""
+#VillaRental
+#فيلا_بوكيت #فلل_فاخرة #بوكيت #عطلة_العائلة #فيلا_خاصة #سياحة_تايلاند #مسبح_خاص #شهر_عسل_بوكيت"""
     },
     "7C": {
         "name": "Botanica Bangtao Beach",
@@ -920,7 +938,8 @@ Enquire via DM or villago.net
 #BotanicaBangtaoBeach #VillaGO #PhuketVilla
 #LuxuryVilla #PrivateVilla #InfinityPool
 #PhuketLuxury #ThailandTravel #TropicalEscape
-#VillaRental"""
+#VillaRental
+#فيلا_بوكيت #فلل_فاخرة #بوكيت #عطلة_العائلة #فيلا_خاصة #سياحة_تايلاند #مسبح_خاص #شهر_عسل_بوكيت"""
     },
     "71/10": {
         "name": "Mono Villa",
@@ -966,7 +985,8 @@ Enquire via DM or villago.net
 #MonoVilla #VillaGO #PhuketVilla
 #LuxuryVilla #PrivateVilla #InfinityPool
 #PhuketLuxury #ThailandTravel #TropicalEscape
-#VillaRental"""
+#VillaRental
+#فيلا_بوكيت #فلل_فاخرة #بوكيت #عطلة_العائلة #فيلا_خاصة #سياحة_تايلاند #مسبح_خاص #شهر_عسل_بوكيت"""
     },
     "5": {
         "name": "Kalim View",
@@ -1012,7 +1032,8 @@ Enquire via DM or villago.net
 #KalimView #VillaGO #PhuketVilla
 #LuxuryVilla #PrivateVilla #InfinityPool
 #PhuketLuxury #ThailandTravel #TropicalEscape
-#VillaRental"""
+#VillaRental
+#فيلا_بوكيت #فلل_فاخرة #بوكيت #عطلة_العائلة #فيلا_خاصة #سياحة_تايلاند #مسبح_خاص #شهر_عسل_بوكيت"""
     },
     "5A": {
         "name": "Penthouse Skyline",
@@ -1058,7 +1079,8 @@ Enquire via DM or villago.net
 #PenthouseSkyline #VillaGO #PhuketVilla
 #LuxuryVilla #PrivateVilla #InfinityPool
 #PhuketLuxury #ThailandTravel #TropicalEscape
-#VillaRental"""
+#VillaRental
+#فيلا_بوكيت #فلل_فاخرة #بوكيت #عطلة_العائلة #فيلا_خاصة #سياحة_تايلاند #مسبح_خاص #شهر_عسل_بوكيت"""
     },
 }
 
