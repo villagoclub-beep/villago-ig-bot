@@ -1,0 +1,36 @@
+name: Middle East Daily Follow-up Reminder
+
+on:
+  schedule:
+    # 每天 05:00 UTC = 迪拜/利雅得时间 09:00 / 曼谷时间 12:00
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+
+jobs:
+  reminder:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate today's Middle East follow-up list
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python tools/me_followup_reminder.py --limit 5
+
+      - name: Commit updated todo file
+        run: |
+          git config user.name "villago-bot"
+          git config user.email "actions@github.com"
+          git add middle_east/todo_today.md middle_east/crm.csv
+          git diff --cached --quiet || git commit -m "chore: update Middle East daily follow-up list [skip ci]"
+          git push

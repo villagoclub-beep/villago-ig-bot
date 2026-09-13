@@ -1,0 +1,20 @@
+﻿id,country,city,company,type,email,phone,whatsapp,website,instagram_handle,priority,stage,last_contact_date,next_touch_date,notes
+ME001,阿联酋,迪拜,Al Tayer Travel,大型综合社,,+971-4-205-5000,,altayer-travel.com,,2,not_contacted,,,迪拜老牌旅行社，有普吉线
+ME002,阿联酋,迪拜,Musafir.com,OTA,difc@musafir.com,+971-4-363-5777,WA: +971-564173623,musafir.com,,2,not_contacted,,,WA可直接触达
+ME003,阿联酋,迪拜,DNATA Travel,Emirates集团,reservations@dnatatravel.com; partners@dnatatravel.com,+971-4-708-4085,,dnatatravel.com,,2,not_contacted,,,Emirates旗下，含Arabian Adventures
+ME004,阿联酋,迪拜,Travel Saga,出境社,,,,travelsaga.com,,2,not_contacted,,,有泰国定制线路
+ME005,阿联酋,迪拜,Arabian Adventures,DMC(Emirates集团旗下),,,,arabian-adventures.com,,2,not_contacted,,,沙漠游猎/MICE起家，现做全案定制，已并入dnata体系
+ME006,阿联酋,迪拜,Elevate DMC (Elevate World),综合DMC集团,hello@elevatedmc.com,+971-4-216-0600,,elevatedmc.com,,2,not_contacted,,,迪拜总部，业务延伸至东南亚，多次获DMC奖项
+ME007,阿联酋,迪拜,DMC in Dubai (ABC Tourism),综合DMC,,,,dmcindubai.com,,2,not_contacted,,,迪拜大型DMC，服务延伸至阿曼/卡塔尔/巴林/科威特
+ME008,阿联酋,阿布扎比,Tetrapylon DMC,奢华DMC,,,,tetrapylon.com,,2,not_contacted,,,专注阿拉伯半岛/黎凡特/北非高净值客群
+ME009,沙特阿拉伯,吉达,Arabian Sky Travels,出境社,,,,arabianskytravels.com,,1,not_contacted,,,吉达老牌旅行社，已有东南亚(含泰国)线路，酒店代订能力强
+ME010,沙特阿拉伯,利雅得/吉达,The Luxury Travel Agency (KSA),国际精品顾问,,,,theluxurytravelagency.com,,1,not_contacted,,,服务沙特高净值客户的国际精品定制旅行顾问，偏好独立别墅+管家
+ME011,卡塔尔,多哈,Experience Qatar,DMC,,,,experience.qa,,3,not_contacted,,,多哈本地DMC，主做定制游/沙漠/游艇，可拓展东南亚外联
+ME012,卡塔尔,多哈,The Luxury Travel Agency (Doha),国际精品顾问,,,,theluxurytravelagency.com/luxury-travel-agency-in-doha,,3,not_contacted,,,服务多哈高净值客户15年+，客户偏好水上别墅/白手套服务
+ME013,卡塔尔,多哈,Regency Holidays,高端出境社,,,,,,3,not_contacted,,,多哈高端定制假期，需通过官网/ATM展会获取直接联系方式
+ME014,科威特,科威特城,Al Mulla Travels,综合旅行社(集团旗下),,,,almullagroup.com,,3,not_contacted,,,科威特大型多元化集团Al Mulla Group旗下旅行部门，老牌可信度高
+ME015,科威特,科威特城,Endless Travels,奢华旅行社,,,,endlesstravels.com,,3,not_contacted,,,定位科威特本地奢华定制旅行
+ME016,科威特,科威特城,Travel Club Kuwait,出境社,,,,travelclub.com.kw,,3,not_contacted,,,科威特本地综合出境旅行社
+ME017,巴林/阿曼(跨市场),多国,Al Shamel International,综合旅行集团,,,,,,4,not_contacted,,,350+员工，在科威特/巴林/约旦/阿曼/卡塔尔/沙特/阿联酋均设分公司，一次接触覆盖多国
+ME018,阿联酋(协会),阿布扎比,ATTAC 旅游代理理事会,行业协会(250+会员),,+971-508-9191,,attac.ae,,2,not_contacted,,,阿联酋最大旅行社协会，隶属阿布扎比商会；会员名录仅对会员开放，可先联系秘书处争取行业对接/推介机会
+ME019,科威特(协会),科威特城,KTTAA 科威特旅游协会,行业协会,,+965-90006356 / +965-51144450 / +965-22459157,,kttaa.com,,3,not_contacted,,,科威特旅游代理协会，1971年成立；适合作为批量触达科威特本地旅行社的入口
