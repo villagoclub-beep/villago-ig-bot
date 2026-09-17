@@ -1,4 +1,4 @@
-# VillaGO 中东市场 · 今日跟进清单 (2026-09-16)
+# VillaGO 中东市场 · 今日跟进清单 (2026-09-17)
 
 > 发送方式: 一对一 WhatsApp,把 [公司名] 替换成实际称呼,发完后回到 `middle_east/crm.csv` 把该行 stage/last_contact_date 更新,下一次到期会自动算出来。
 
